@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="MauiTestSuite" parallel="tests" verbose="10" thread-count="3">
+	
+
+	<parameter name="webSessionTimeOut" value="180000" />
+	<test name="MauiTests" parallel="methods">
+
+		<groups>
+			<run>
+				<!-- CONTAINER Group -->
+
+<!-- 				<include name="validation" />
+				<include name="listItemWithVariations" /> -->
+			
+			</run>
+		</groups>
+
+		<classes>
+			<class name="com.qtpselenium.core.hybrid.testcases.GmailLogin" />
+<!-- 			<class name="com.qtpselenium.core.hybrid.testcases.GmailLogin2" />
+ -->		</classes>
+	</test>
+</suite>

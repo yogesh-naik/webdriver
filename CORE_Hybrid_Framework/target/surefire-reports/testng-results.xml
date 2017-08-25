@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MauiTestSuite" duration-ms="10" started-at="2017-08-25T01:59:48Z" finished-at="2017-08-25T01:59:48Z">
+    <groups>
+      <group name="checkoutFlows2">
+        <method signature="GmailLogin.doLogin(com.qtpselenium.core.hybrid.util.User)[pri:0, instance:com.qtpselenium.core.hybrid.testcases.GmailLogin@4e4aea35]" name="doLogin" class="com.qtpselenium.core.hybrid.testcases.GmailLogin"/>
+        <method signature="GmailLogin.yahoo_test(com.qtpselenium.core.hybrid.util.User)[pri:0, instance:com.qtpselenium.core.hybrid.testcases.GmailLogin@4e4aea35]" name="yahoo_test" class="com.qtpselenium.core.hybrid.testcases.GmailLogin"/>
+      </group> <!-- checkoutFlows2 -->
+    </groups>
+    <test name="MauiTests" duration-ms="10" started-at="2017-08-25T01:59:48Z" finished-at="2017-08-25T01:59:48Z">
+      <class name="com.qtpselenium.core.hybrid.testcases.GmailLogin">
+        <test-method status="FAIL" signature="yahoo_test(com.qtpselenium.core.hybrid.util.User)[pri:0, instance:com.qtpselenium.core.hybrid.testcases.GmailLogin@4e4aea35]" name="yahoo_test" duration-ms="0" started-at="2017-08-24T18:59:48Z" finished-at="2017-08-24T18:59:48Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method yahoo_test requires 1 parameters but 0 were supplied in the @Test annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method yahoo_test requires 1 parameters but 0 were supplied in the @Test annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:198)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:134)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:373)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yahoo_test -->
+        <test-method status="FAIL" signature="doLogin(com.qtpselenium.core.hybrid.util.User)[pri:0, instance:com.qtpselenium.core.hybrid.testcases.GmailLogin@4e4aea35]" name="doLogin" duration-ms="0" started-at="2017-08-24T18:59:48Z" finished-at="2017-08-24T18:59:48Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method doLogin requires 1 parameters but 0 were supplied in the @Test annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method doLogin requires 1 parameters but 0 were supplied in the @Test annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:198)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:134)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:373)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+      </class> <!-- com.qtpselenium.core.hybrid.testcases.GmailLogin -->
+    </test> <!-- MauiTests -->
+  </suite> <!-- MauiTestSuite -->
+</testng-results>

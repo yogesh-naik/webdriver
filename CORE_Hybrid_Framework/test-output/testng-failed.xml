@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [MauiTestSuite]" parallel="tests">
+  <parameter name="webSessionTimeOut" value="180000"/>
+  <test name="MauiTests(failed)" parallel="methods">
+    <classes>
+      <class name="com.qtpselenium.core.hybrid.testcases.GmailLogin">
+        <methods>
+          <include name="doLogin" invocation-numbers="0"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.qtpselenium.core.hybrid.testcases.GmailLogin -->
+    </classes>
+  </test> <!-- MauiTests(failed) -->
+</suite> <!-- Failed suite [MauiTestSuite] -->

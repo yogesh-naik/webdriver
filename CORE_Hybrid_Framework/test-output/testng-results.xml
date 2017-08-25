@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MauiTestSuite" duration-ms="48" started-at="2017-08-24T22:09:10Z" finished-at="2017-08-24T22:09:10Z">
+    <groups>
+      <group name="checkoutFlows2">
+        <method signature="GmailLogin.doLogin(com.qtpselenium.core.hybrid.util.User)[pri:0, instance:com.qtpselenium.core.hybrid.testcases.GmailLogin@1060b431]" name="doLogin" class="com.qtpselenium.core.hybrid.testcases.GmailLogin"/>
+        <method signature="GmailLogin.yahoo_test(com.qtpselenium.core.hybrid.util.User)[pri:0, instance:com.qtpselenium.core.hybrid.testcases.GmailLogin@1060b431]" name="yahoo_test" class="com.qtpselenium.core.hybrid.testcases.GmailLogin"/>
+      </group> <!-- checkoutFlows2 -->
+    </groups>
+    <test name="MauiTests" duration-ms="48" started-at="2017-08-24T22:09:10Z" finished-at="2017-08-24T22:09:10Z">
+    </test> <!-- MauiTests -->
+  </suite> <!-- MauiTestSuite -->
+</testng-results>

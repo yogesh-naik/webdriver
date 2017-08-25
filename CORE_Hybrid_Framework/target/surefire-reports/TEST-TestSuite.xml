@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.417" tests="2" errors="0" skipped="2" failures="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="Maven project"/>
+    <property name="PWD" value="/Users/ynaik/Downloads/apache-tomcat-9.0.0.M22/bin"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/Users/ynaik/.jenkins"/>
+    <property name="PATH" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="e990095751f425ed"/>
+    <property name="POM_ARTIFACTID" value="CORE_Hybrid_Framework"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="TERM_PROGRAM" value="Apple_Terminal"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="TERM_SESSION_ID" value="3CEFA7E4-F87C-4CD2-9B74-47697BB3F753"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="CORE_Hybrid_Framework"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="user.name" value="ynaik"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="SECURITYSESSIONID" value="186a7"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="Maven project"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Maven%20project/61/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#61"/>
+    <property name="TMPDIR" value="/var/folders/cc/7lvdkzmd2rs8845ylx_vnjfh38xk3v/T/"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="XPC_FLAGS" value="0x0"/>
+    <property name="user.timezone" value="US/Pacific"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="TERM" value="xterm-256color"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="61"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/sh"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/Users/ynaik/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven/conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.12.6"/>
+    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Maven%20project/61/display/redirect"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="JOB_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Maven%20project/display/redirect"/>
+    <property name="SHLVL" value="2"/>
+    <property name="_" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/bin/java"/>
+    <property name="JAVA_MAIN_CLASS_26794" value="org.apache.catalina.startup.Bootstrap"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="LOGNAME" value="ynaik"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="HOME" value="/Users/ynaik"/>
+    <property name="POM_GROUPID" value="com.qtpselenium.core.hybrid"/>
+    <property name="user.home" value="/Users/ynaik"/>
+    <property name="BUILD_TAG" value="jenkins-Maven project-61"/>
+    <property name="JENKINS_SERVER_COOKIE" value="e990095751f425ed"/>
+    <property name="XPC_SERVICE_NAME" value="0"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="/Users/ynaik/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.L6syY0sJeN/Render"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="/Users/ynaik/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven"/>
+    <property name="java.class.path" value="/Users/ynaik/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.11.jar:/Users/ynaik/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven/boot/plexus-classworlds-2.5.2.jar:/Users/ynaik/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /Users/ynaik/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven /Users/ynaik/Downloads/apache-tomcat-9.0.0.M22/webapps/jenkins/WEB-INF/lib/remoting-3.10.jar /Users/ynaik/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.11.jar /Users/ynaik/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.11.jar 57381"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PATH+JDK" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/bin"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/Users/ynaik/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven"/>
+    <property name="java.io.tmpdir" value="/var/folders/cc/7lvdkzmd2rs8845ylx_vnjfh38xk3v/T/"/>
+    <property name="HUDSON_HOME" value="/Users/ynaik/.jenkins"/>
+    <property name="PATH+MAVEN" value="/Users/ynaik/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven/bin"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.M8nSiuFJCZ/Listeners"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.ext.dirs" value="/Users/ynaik/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x68EC87B:0x0:0x0"/>
+    <property name="user.dir" value="/Users/ynaik/Desktop/WebDriver/CORE_Hybrid_Framework"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="/Users/ynaik/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="61"/>
+    <property name="TERM_PROGRAM_VERSION" value="388.1.1"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="LANG" value="en_US.UTF-8"/>
+    <property name="maven3.interceptor" value="/Users/ynaik/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.11.jar"/>
+    <property name="WORKSPACE" value="/Users/ynaik/.jenkins/workspace/Maven project"/>
+    <property name="maven3.interceptor.common" value="/Users/ynaik/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.11.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="USER" value="ynaik"/>
+  </properties>
+  <testcase name="yahoo_test" classname="com.qtpselenium.core.hybrid.testcases.GmailLogin" time="0">
+    <skipped message="&#10;Method yahoo_test requires 1 parameters but 0 were supplied in the @Test annotation."/>
+    <system-out><![CDATA[...
+... TestNG 6.8.9beta by Cédric Beust (cedric@beust.com)
+...
+
+HERE -->/Users/ynaik/Desktop/WebDriver/CORE_Hybrid_Framework
+]]></system-out>
+  </testcase>
+  <testcase name="doLogin" classname="com.qtpselenium.core.hybrid.testcases.GmailLogin" time="0">
+    <skipped message="&#10;Method doLogin requires 1 parameters but 0 were supplied in the @Test annotation."/>
+  </testcase>
+</testsuite>
